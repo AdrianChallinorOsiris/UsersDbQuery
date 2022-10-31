@@ -20,7 +20,7 @@ class H2ApplicationTests {
 
 	@Test 
 	void testDBQuery() { 
-		List<UsersPojo> list = uq.getUserDetails("admin@pixeltrice.com");
+		List<UsersPojo> list = uq.getUserDetails("fredfox@foxy.com");
 		assertNotNull(list);
 		assertEquals(1, list.size());
 	}
